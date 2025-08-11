@@ -34,7 +34,7 @@ export default {
   name: "App",
   data() {
     return {
-      API_BASE: "http://localhost:5000", // Change later to Render URL
+      API_BASE: "https://task-manager-backend-1m7u.onrender.com", 
       tasks: [],
       newTask: {
         title: "",
